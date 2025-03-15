@@ -14,9 +14,10 @@
         <p id="feedback"></p>
         <button id="next" style="display:none;" onclick="nextQuestion()">次の問題へ</button>
     </div>
-    <button class="stats-button" onclick="toggleStats()">正答率を見る/隠す</button>
-    <button class="sort-button" style="display:none;" onclick="toggleSort()">並べ替えを切り替える</button>
+    <button class="stats-button" onclick="toggleStats()">正答率を見る</button>
     <div class="stats-container" id="stats-container" style="display: none;"></div>
+    <button class="sort-button" style="display:none;" onclick="toggleSort()">並べ替えをする</button>
+    <button class="low-accuracy-button" id="low-accuracy-button" onclick="toggleLowAccuracyMode()">低正答率モード</button>
     <script src="script.js"></script>
 </body>
 </html>

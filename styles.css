@@ -30,27 +30,15 @@ button:hover {
     font-size: 18px;
     margin-top: 10px;
 }
-.stats-button {
-    position: fixed;
-    bottom: 20px;
-    width: 200px;
-    left: 20px;
+.stats-button, .sort-button, .low-accuracy-button {
+    margin-top: 20px;
     background-color: #28a745;
 }
-.sort-button {
-    position: fixed;
-    bottom: 20px;
-    width: 200px;
-    right: 20px;
-    background-color: #28a745;
-}
-.stats-button:hover, .sort-button:hover {
+.stats-button:hover, .sort-button:hover, .low-accuracy-button:hover {
     background-color: #218838;
 }
 .stats-container {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
+    margin-top: 20px;
     background: white;
     border: 1px solid #ccc;
     padding: 10px;
